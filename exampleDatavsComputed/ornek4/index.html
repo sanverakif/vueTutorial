@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="app">
+        <h1 class="is-size-3">{{ msg }}</h1>
+
+        <br>
+
+        <div class="container" style="width:35%;">
+            <input class="input" type="text" v-model="startMsg"><br><br>
+            <button class="button is-primary is-medium" @click="changeMsg">mesajı değiştirmek için tıklayın</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

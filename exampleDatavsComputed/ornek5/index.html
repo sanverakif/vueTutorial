@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hello">
+        <h1 class="is-size-3">{{ msg }}</h1>
+        <br>
+        <div class="container" style="width: 35%;">
+            <input class="input" type="text" v-model="StartMsg"><br/><br/>
+            <button class="button is-primary is-medium" @click="changeMsg">Click to change message</button>
+        </div>
+    </div>
+</body>
+
+</html>
