@@ -14,7 +14,16 @@ const app = Vue.createApp({
             coords: {
                 x: 0,
                 y: 0
-            }
+            },
+            c: {
+                b: {
+                    results: [{
+                        "isim": "emresanver",
+                        "yas": "22"
+                    }]
+                }
+            },
+
         };
     },
     methods: {

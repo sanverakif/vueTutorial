@@ -7,7 +7,9 @@ const app = Vue.createApp({
         }
     },
     methods: {
+
         searchList() {
+            debugger;
             alert();
             this.filter = this.itemList.filter((i) => i.includes(this.search));
 
