@@ -1,10 +1,8 @@
 <template>
-  <label for="todoText"></label>
   <input
     v-model="todoText"
     @keydown.enter="sendData"
     type="text"
-    id="todoText"
     placeholder="akif sanver"
   />
 </template>

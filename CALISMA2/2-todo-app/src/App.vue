@@ -5,7 +5,7 @@
     <AddSection @add-todo="addTodo"></AddSection>
     <!--Dinamik olarak veri çekiceksek-->
     <!-- <TodoList myDatam="Benim datalarım appvuedan gelicek"></TodoList> -->
-    <!--todolistten delete-todo-item gelir ve deleteitemı çalıştırırız -->
+    <!--todolistten delete-todo-item gelir ve deleteitemı -->
     <TodoList :myDatam="todoList" @delete-todo-item="deleteItem"></TodoList>
     <ResultBar :itemCount="todoList.length"></ResultBar>
   </div>
